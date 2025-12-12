@@ -1,0 +1,84 @@
+Visual Studio cache
+
+.vs/ .suo .user .userosscache .sln.docstates
+
+Build results
+
+x64/ x86/ Debug/ Release/ bin/ obj/ out/
+
+Visual Studio profiler
+
+.psess .vsp *.vspscc
+
+User-specific files
+
+.rsuser .suo .cache .pdb
+
+Visual Studio Code
+
+.vscode/
+
+C++ build files
+
+.idb .ipch
+
+Backup and auto generated
+
+.log .tlog .lastbuildstate .VC.db *.VC.VC.opendb
+
+Others
+
+.tmp .log .cache .ilk
+
+CMake
+
+CMakeCache.txt CMakeFiles/ cmake-build-*/
+
+# Visual Studio cache
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+
+# Build results
+x64/
+x86/
+Debug/
+Release/
+bin/
+obj/
+out/
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspscc
+
+# User-specific files
+*.rsuser
+*.suo
+*.cache
+*.pdb
+
+# Visual Studio Code
+.vscode/
+
+# C++ build files
+*.idb
+*.ipch
+
+# Backup and auto generated
+*.log
+*.tlog
+*.lastbuildstate
+*.VC.db
+*.VC.VC.opendb
+*.tmp
+*.ilk
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake-build-*/
