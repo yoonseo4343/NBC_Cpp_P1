@@ -88,6 +88,12 @@ int main() {
 		int num;
 		cout << "번호를 선택해주세요: ";
 		cin >> num;
+		if (cin.fail()) {
+			cin.clear();             // fail 상태 복구
+			cin.ignore(1000, '\n');  // 잘못된 입력 버퍼 비우기
+			cout << "숫자를 입력해주세요.\n";
+			continue;
+		}
 		if (num == 0)
 		{
 			cout << "프로그램을 종료합니다." << endl;
